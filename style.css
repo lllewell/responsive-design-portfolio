@@ -1,12 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    margin: 4px;
+    padding-left: 16px;
+    font-family: 'Courier New', Courier, monospace;
     background-color: maroon;
 }
 
@@ -17,10 +21,12 @@ nav {
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: circle;
+    list-style-type: none;
+}
 
+nav li{
+    display: inline-block;
+    padding: 16px;
 }
 
 img {

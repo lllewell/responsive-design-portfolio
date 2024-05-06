@@ -6,16 +6,31 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin: 4px;
+    background-color: maroon;
 }
 
 nav {
     display: flex;
+    align-items: center;
     
 }
 
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     list-style-type: circle;
 
+}
+
+img {
+    display: block;
+    width: 400px;
+    border: 16px black;
+    margin: 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
 }

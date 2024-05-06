@@ -6,6 +6,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+main {
+    padding: 16px;
+    border: 5px double black;
+}
+
 header {
     display: flex;
     justify-content: space-between;

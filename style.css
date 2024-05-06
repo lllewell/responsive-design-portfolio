@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: circle;
+
+}

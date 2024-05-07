@@ -36,6 +36,7 @@ nav li{
     font-weight: 900;
 }
 
+
 img {
     display: block;
     width: 150px;
@@ -51,4 +52,16 @@ img:hover {
 #me {
     display: flex;
     flex-flow: row wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .main-header {
+        background-color: pink;
+        color: aqua;
+    }
+    body {
+        background-color: yellow;
+        color: peru;
+    }
+    
 }

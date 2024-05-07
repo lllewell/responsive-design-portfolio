@@ -33,7 +33,7 @@ nav ul {
 nav li{
     display: inline-block;
     padding: 16px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 img {
@@ -44,7 +44,8 @@ img {
 }
 
 img:hover {
-    background-color: rgb(201, 13, 13);
+    background-color: black;
+    transition: 0.2s;
 }
 
 #me {

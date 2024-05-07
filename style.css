@@ -6,17 +6,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-main {
-    padding: 16px;
-    border: 5px double black;
+.main-header {
+    display: flex;
+    border: 4px solid;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: maroon;
+    padding-left: 16px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: maroon;
+main {
+    padding: 16px;
+    border: 4px solid;
 }
 
 nav {
@@ -32,13 +33,18 @@ nav ul {
 nav li{
     display: inline-block;
     padding: 16px;
+    font-weight: bold;
 }
 
 img {
     display: block;
-    width: 400px;
-    border: 16px black;
+    width: 150px;
     margin: 20px;
+    border-radius: 15px;
+}
+
+img:hover {
+    background-color: rgb(201, 13, 13);
 }
 
 #me {

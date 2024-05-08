@@ -50,8 +50,9 @@ img {
     position: relative;
 }
 
-img:hover {
-    background-color: black;
+
+#work img:hover {
+    box-shadow: 0 0 10px;
     transition: 0.2s;
 }
 

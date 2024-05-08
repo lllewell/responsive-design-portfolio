@@ -46,9 +46,17 @@ img {
     border-radius: 15px;
 }
 
+#headshot {
+    position: relative;
+}
+
 img:hover {
     background-color: black;
     transition: 0.2s;
+}
+
+.link {
+    color: black;
 }
 
 #me {
@@ -61,9 +69,13 @@ img:hover {
         background-color: pink;
         color: aqua;
     }
+    .link {
+        color: beige;
+    }
     body {
         background-color: yellow;
         color: peru;
     }
+
     
 }

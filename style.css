@@ -79,6 +79,7 @@ img {
     flex-flow: row wrap;
 }
 
+/* Added color changes in media query to emphasize the change in the responsive layout */
 @media screen and (max-width: 768px) {
     .main-header {
         background-color: pink;

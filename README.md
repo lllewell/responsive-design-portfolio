@@ -8,4 +8,4 @@ This project was created as a central place to hold my future projects to presen
 
 This page is simple but it has nav links that will take you to the corresponding sections. Upon clicking on the screenshot of my previous work it will also take you to that deployed application.
 
-![alt text](./images/responsive-design-screenshot.png)
+![responsive portfolio](./images/responsive-design-screenshot.png)
